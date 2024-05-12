@@ -1,0 +1,223 @@
+html {
+    background: #fff2d7;
+    color: rgb(0, 0, 0);
+    font-family: Outfit;
+    margin: 0px;
+    
+}
+#imagem {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    width: 100%;
+}
+#container {
+    background: white;
+    border-radius: 20px;
+    margin: 50px 200px;
+    padding: 40px;
+}
+#titulo-principal {
+    font-family: Young-Serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.preparação-block {
+    background:  rgba(226, 132, 203, 0.112);
+    padding: 10px;
+    border-radius: 10px;  
+}
+.lista-preparação {
+    display: flex;
+    flex-direction: column;
+    gap: 15px ;
+}
+#preparação {
+    color: rgb(145, 47, 148);
+    margin-left: 20px;
+    font-family: Outfit;
+    font-size: 19px;
+}
+.titulo-secundario,
+.titulo-terceario,
+.titulo-quaternario {
+    font-family: Young-Serif;
+    color:  rgb(128, 61, 59);
+    font-size: 29px;
+    
+}
+.lista-ingrediente,
+.lista-instrucao {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    gap: 15px ;
+}
+.titulo-quaternario,
+.titulo-terceario {
+    border-top: 1px solid #9a8a8a;
+    padding-top: 30px;
+}
+.tabela-um {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 375px;
+}
+.tabela-dois {
+    display: flex;
+    border-top: 1px solid #9a8a8a;
+    padding-top: 20px;
+    justify-content: flex-start;
+    gap: 390px;
+}
+.tabela-tres {
+    display: flex;
+    border-top: 1px solid #9a8a8a;
+    padding-top: 20px;
+    justify-content: flex-start;
+    gap: 381px;
+
+}
+.tabela-quatro {
+    display: flex;
+    border-top: 1px solid #9a8a8a;
+    padding-top: 20px;
+    justify-content: flex-start;
+    gap: 410px;
+}
+span {
+    color:rgb(128, 61, 59)
+}
+@media (max-width: 400px) {
+    #titulo-principal {
+        font-family: Young-Serif;
+        font-size: 50px;
+        margin-top: 10px;
+        padding: 0px;
+    }    
+    #container {
+        margin-left: -12px;
+        margin-right: -100px;
+    }
+    #imagem {
+        padding: 0px;
+        margin-top: -90px;
+        border-radius: 0px;
+        margin-right: -345px;      
+    }
+    html {
+        color: rgb(0, 0, 0);
+        font-family: Outfit; 
+        background: white;
+        font-size: 22px;
+    }
+    .titulo-secundario,
+    .titulo-terceario,
+    .titulo-quaternario {
+        font-family: Young-Serif;
+        color:  rgb(128, 61, 59);
+        font-size: 40px; 
+    }
+    #preparação {
+        color: rgb(145, 47, 148);
+        margin-left: 20px;
+        font-family: Outfit;
+        font-size: 25px;
+    }
+    .tabela-um {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 125px;
+    }
+    .tabela-dois {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 149px;
+    }
+    .tabela-tres {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 138px;
+    }
+    .tabela-quatro {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 176px;   
+    }
+}
+@media (max-width: 900px) {
+    #titulo-principal {
+        font-family: Young-Serif;
+        font-size: 50px;
+        margin-top: 10px;
+        padding: 0px;
+    }    
+    #container {
+        margin-left: -12px;
+        margin-right: -100px;
+    }
+    #imagem {
+        padding: 0px;
+        margin-top: -90px;
+        border-radius: 0px;
+        margin-right: -345px;      
+    }
+    html {
+        color: rgb(0, 0, 0);
+        font-family: Outfit; 
+        background: white;
+        font-size: 22px;
+    }
+    .titulo-secundario,
+    .titulo-terceario,
+    .titulo-quaternario {
+        font-family: Young-Serif;
+        color:  rgb(128, 61, 59);
+        font-size: 40px; 
+    }
+    #preparação {
+        color: rgb(145, 47, 148);
+        margin-left: 20px;
+        font-family: Outfit;
+        font-size: 25px;
+    }
+    .tabela-um {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 230px;
+    }
+    .tabela-dois {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 251px;
+    }
+    .tabela-tres {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 240px;
+    }
+    .tabela-quatro {
+        display: flex;
+        border-top: 1px solid #9a8a8a;
+        padding-top: 20px;
+        justify-content: flex-start;
+        gap: 277px;   
+    }
+}
+
+
+
